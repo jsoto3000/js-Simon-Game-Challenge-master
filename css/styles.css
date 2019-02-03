@@ -3,12 +3,21 @@ body {
   background-color: #011F3F;
 }
 
-#level-title {
+#level-title1 {
   font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
-  margin:  5%;
+  font-size: 1rem;
+  margin:  2%;
   color: #FEF2BF;
 }
+
+#level-title2 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  margin:  2%;
+  color: #FEF2BF;
+}
+
+/*
 
 .container {
   display: block;
@@ -17,11 +26,12 @@ body {
 
 }
 
+*/
 .btn {
-  margin: 25px;
+  margin: 10px;
   display: inline-block;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
   border: 10px solid black;
   border-radius: 20%;
 }
@@ -29,8 +39,8 @@ body {
 
 .footer {
   font-family: 'Press Start 2P', cursive;
-  font-size: 1rem;
-  margin:  auto;
+  font-size: .25rem;
+  margin:  3%;
   color: #FEF2BF;
 }
 

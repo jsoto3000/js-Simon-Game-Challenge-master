@@ -9,19 +9,21 @@
 <a name="about"></a>
 ## About
 In this code along I updated the provided starter files using
-HTML, CSS, and Javascript
+HTML, CSS, Bootstrap, and Javascript
 
 <a name="features"></a>
 ## Features
 - [x] HTML
 - [x] CSS
 - [x] Javascript
+- [x] Bootstrap
 
 <a name="requirements"></a>
 ## Requirements
 - HTML
 - CSS
 - Javascript
+- Bootstrap
 
 <a name="technical_information"></a>
 ## Technical Information

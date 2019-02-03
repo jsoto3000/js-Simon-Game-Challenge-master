@@ -2,46 +2,54 @@
 <html lang="en" dir="ltr">
 
 <head>
+
   <meta charset="utf-8">
   <title>Simon</title>
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
 </head>
 
 <body>
-  <h1 id="level-title">Press A Key to Start</h1>
+  <h1 id="level-title1">Simon</h1>
+  <h2 id="level-title2">Press Any Keyboard Key to Start</h2>
   <div class="container">
-    <div lass="row">
 
-      <div type="button" id="green" class="btn green">
+    <div class="row">
+
+      <div class="col-sm">
+
+        <div type="button" id="green" class="btn green"></div>
+
+        <div type="button" id="red" class="btn red"></div>
 
       </div>
 
-      <div type="button" id="red" class="btn red">
-
-      </div>
     </div>
 
     <div class="row">
 
-      <div type="button" id="yellow" class="btn yellow">
+      <div class="col-sm">
 
-      </div>
-      <div type="button" id="blue" class="btn blue">
+        <div type="button" id="yellow" class="btn yellow"></div>
+
+        <div type="button" id="blue" class="btn blue"></div>
 
       </div>
 
     </div>
 
-  </div>
+      <footer class="footer">
+        Made with ❤️ in Connecticut.
+      </footer>
 
-  <footer class="footer">
-    Made with ❤️ in Connecticut.
-  </footer>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="js/game.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="js/game.js"></script>
 </body>
 
 </html>
